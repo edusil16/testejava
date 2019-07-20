@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class TrainComposition {
 
-    enum Orientacao {
+    public enum Orientacao {
         ESQUERDA, DIREITA
     }
 

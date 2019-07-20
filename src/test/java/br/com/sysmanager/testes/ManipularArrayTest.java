@@ -1,4 +1,4 @@
-package br.com.sysmanager.desafio1;
+package br.com.sysmanager.testes;
 
 import br.com.sysmanager.desafio2.ManipularArray;
 import org.junit.Test;

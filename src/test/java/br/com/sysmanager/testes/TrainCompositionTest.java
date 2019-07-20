@@ -1,5 +1,6 @@
-package br.com.sysmanager.desafio1;
+package br.com.sysmanager.testes;
 
+import br.com.sysmanager.desafio1.TrainComposition;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
