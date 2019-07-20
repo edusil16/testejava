@@ -3,7 +3,6 @@ package br.com.sysmanager.desafio1;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class TrainCompositionTest {
     @Test
@@ -14,6 +13,7 @@ public class TrainCompositionTest {
 
         assertEquals(13, (int) composicao.getVagoes().get(0));
         assertEquals(7, (int) composicao.getVagoes().get(1));
+
     }
 
     @Test

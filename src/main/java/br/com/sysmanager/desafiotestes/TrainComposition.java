@@ -36,7 +36,4 @@ public class TrainComposition {
         return vagoes;
     }
 
-    public boolean isVazia() {
-        return vagoes.isEmpty();
-    }
 }
