@@ -12,21 +12,21 @@ public class ManipularArray {
             vetor[i] = (int) (Math.random() * quantidade);
         }
 
-        System.out.println("Array original");
+        System.out.println("Array original:");
         printArray(vetor);
 
-        insertionSort(vetor);
+        ordenaVetor(vetor);
 
-        System.out.println("Array ordenado");
+        System.out.println("Array ordenado:");
         printArray(vetor);
 
         // Parâmetro que utilizei para comparar o Array criado aleatoriamente de 0 a 10
-        System.out.println("Array comparador com o método");
+        System.out.println("Array ordenado com o método lessThan: ");
         printArray(getNumbersLessThan(4,vetor));
 
     }
 
-    public void insertionSort(int[] vetor) {
+    public void ordenaVetor(int[] vetor) {
         int j;
         int key;
         int i;
@@ -39,9 +39,9 @@ public class ManipularArray {
             vetor[i + 1] = key;
         }
     }
-
+// Método criado para pegar os números menores que o parâmetro estipulado.
     private Integer[] getNumbersLessThan(int number, int[] array) {
-        List<Integer> lessNumbers=new ArrayList();
+        List<Integer> lessNumbers = new ArrayList();
         for(int i:array) {
             if(i<number) {
                 lessNumbers.add(i);

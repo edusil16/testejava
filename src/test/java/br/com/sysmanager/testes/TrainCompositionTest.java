@@ -15,6 +15,7 @@ public class TrainCompositionTest {
         assertEquals(13, (int) composicao.getVagoes().get(0));
         assertEquals(7, (int) composicao.getVagoes().get(1));
 
+        System.out.println(composicao.getVagoes());
     }
 
     @Test
@@ -27,6 +28,8 @@ public class TrainCompositionTest {
 
         assertEquals(13, (int) composicao.getVagoes().get(0));
 
+        System.out.println(composicao.getVagoes());
+
     }
 
     @Test
@@ -38,6 +41,8 @@ public class TrainCompositionTest {
         composicao.desatracar(TrainComposition.Orientacao.ESQUERDA);
 
         assertEquals(7, (int) composicao.getVagoes().get(0));
+
+        System.out.println(composicao.getVagoes());
 
     }
 }
