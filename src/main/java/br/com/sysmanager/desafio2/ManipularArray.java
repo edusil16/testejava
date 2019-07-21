@@ -26,7 +26,7 @@ public class ManipularArray {
 
     }
 
-    public void ordenaVetor(int[] vetor) {
+    private void ordenaVetor(int[] vetor) {
         int j;
         int key;
         int i;
