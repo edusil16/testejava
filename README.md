@@ -11,6 +11,6 @@ passado no método countNumbers.
 
 Guardo nesta Branch também o arquivo POM.xml para o próposito de padronizar o projeto e ser lido em qualquer máquina que possua a JDK.
 
-O Arquivo .gitignore utilizo de uma cópia existente em outros projetos, como uma forma de padronizar arquivos que são gerados pela IDE e outros arquivos que não compõe a funcionalidade do projeto.  
+O arquivo .gitignore utilizo de uma cópia existente em outros projetos, como uma forma de padronizar arquivos que são gerados pela IDE e outros arquivos que não compõe a funcionalidade do projeto.  
 
 ###########################################################################################
