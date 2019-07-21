@@ -1,5 +1,5 @@
 ## Teste feito em Java para a Empresa Sys Manager
-########################################################################################################################
+############################################################################################
 O Projeto dispõe de um algoritmo criado para uma etapa seletiva.
 
 O 1º desafio foi criado uma classe TrainComposition que representa uma composição com orientação estabelecida
@@ -13,4 +13,4 @@ Guardo nesta Branch também o arquivo POM.xml para o próposito de padronizar o 
 
 O Arquivo .gitignore utilizo de uma cópia existente em outros projetos, como uma forma de padronizar arquivos que são gerados pela IDE e outros arquivos que não compõe a funcionalidade do projeto.  
 
-########################################################################################################################
+############################################################################################
